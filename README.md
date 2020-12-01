@@ -1,7 +1,7 @@
 # LanguageSpoofing
 
 
-This is designed to make generating realistic, fake text in SQL or PowerShell.
+This is designed to make it easy to generate realistic, fake text in SQL or PowerShell.
 
 ## In SQL
 We need one view (Ran) and a function (FromSentence) to do the main work. I don't mean a function to do each column, but one, with a suitable input, to do all text fields. This function uses some up-to-date features in SQL Server 2017 onwards, so apologies to anyone stuck on previous releases.
