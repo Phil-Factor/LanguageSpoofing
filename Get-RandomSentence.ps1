@@ -35,7 +35,7 @@
         recursion of normal written language and, to a lesser extent, speech.
 
 #>
-function Get-RandomSentence
+function global:Get-RandomSentence
 {
 	[CmdletBinding()]
 	param
@@ -80,7 +80,7 @@ function Get-RandomSentence
 	.NOTES
 		Phil Factor November 2020
 #>
-function ConvertTo-TitleCase
+function global:ConvertTo-TitleCase
 {
 	param
 	(
